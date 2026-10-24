@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saad Shaikh | Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas><div class="veil"></div>
+<div class="progress" id="progress"></div>
+
+<header class="nav">
+  <a href="#home" class="logo">Saad<span>.</span></a>
+  <nav id="menu">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+    <a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#passion">Passion</a><a href="#resume">Resume</a><a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" class="icon-btn" aria-label="Toggle dark mode">☾</button>
+  <button id="burger" class="icon-btn burger" aria-label="Menu">☰</button>
+</header>
+
+<main>
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <span class="badge"><i></i>Available for opportunities</span>
+    <p class="hello">Hello, I'm</p>
+    <h1>Saad Shaikh</h1>
+    <h2>I'm a <span class="grad">Data Analyst</span></h2>
+    <p class="lead">Turning data into business insights with
+      <b class="c1">SQL</b>, <b class="c2">Excel</b>, <b class="c3">Power BI</b> and <b class="c4">Tableau</b>.
+      I build clear dashboards that help people make better decisions.</p>
+    <div class="btns">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="resume.pdf" download class="btn primary">Download Resume</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="shape s1"></div><div class="shape s2"></div>
+    <img src="photo.jpg" class="photo" alt="Saad Shaikh">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="sec">
+  <h2 class="title">About Me</h2>
+  <div class="about">
+    <div>
+      <p>I'm Saad Shaikh, a fresher Data Analyst who enjoys turning raw data into clear dashboards and useful insights. I work with SQL for querying, Excel for analysis, and Power BI and Tableau for visual reporting.</p>
+      <p>I'm a quick learner and I'm currently building my skills in DAX, connecting SQL to Power BI, and Python. I'm looking for an opportunity where I can grow and contribute as a Data Analyst.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="sec">
+  <h2 class="title">Education</h2>
+  <div class="timeline" id="edu-list"></div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="sec">
+  <h2 class="title">Experience</h2>
+  <div class="timeline">
+    <div class="card tl-item">
+      <h3>Data Analyst Intern <span class="pill">June 2026</span></h3>
+      <p class="muted">Yes Infotech, Pune</p>
+      <ul><li>Gained hands-on training in data analysis using Excel, SQL, Python, and Tableau</li><li>Cleaned and analysed datasets to uncover trends and support business decisions</li><li>Created dashboards and visual reports to present insights clearly</li></ul>
+    </div>
+    <div class="card tl-item">
+      <h3>Open to first role <span class="pill">Fresher</span></h3>
+      <p class="muted">Looking for a Data Analyst / Junior Analyst position.</p>
+      <ul><li>Built sales dashboards on real-style datasets (Power BI, Tableau)</li><li>Practice with SQL queries and Excel reporting</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="sec">
+  <h2 class="title">Skills</h2>
+  <div id="skill-list"></div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="sec">
+  <h2 class="title">Featured Projects</h2>
+  <div id="project-list" class="grid2"></div>
+</section>
+
+<!-- PASSION -->
+<section id="passion" class="sec passion">
+  <h2 class="title">My Passion</h2>
+  <p class="center muted sub">Beyond data analysis, these are the activities and interests that keep me motivated and balanced</p>
+  <div class="grid2">
+    <div class="card"><video class="pvid" autoplay muted loop playsinline preload="auto" aria-label="Meditation"><source src="videos/meditation.mp4" type="video/mp4"><source src="videos/meditation.webm" type="video/webm"></video><h3>Meditation</h3></div>
+    <div class="card"><video class="pvid" autoplay muted loop playsinline preload="auto" aria-label="Design and Creativity"><source src="videos/creativity.mp4" type="video/mp4"><source src="videos/creativity.webm" type="video/webm"></video><h3>Design &amp; Creativity</h3></div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="sec">
+  <h2 class="title">Resume Highlights</h2>
+  <div class="grid4">
+    <div class="card"><h3>Tools</h3><p class="muted">SQL, Excel, Power BI, Tableau</p></div>
+    <div class="card"><h3>Internship</h3><p class="muted">Yes Infotech · June 2026</p></div>
+    <div class="card"><h3>Projects</h3><p class="muted">WOW Momo, Snitch Dashboards</p></div>
+    <div class="card"><h3>Education</h3><p class="muted">B.Sc · First Class</p></div>
+  </div>
+  <p class="center"><a href="resume.pdf" download class="btn primary">Download Full Resume</a></p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec">
+  <h2 class="title">Reach Me</h2>
+  <p class="center muted sub">Let's connect and discuss opportunities in data analytics, collaborate on projects, or simply talk about the world of data.</p>
+  <div class="card reach">
+    <h3>Get in Touch</h3>
+    <p class="muted">I'm always open to discussing data analytics opportunities and projects. Feel free to reach out through any of the channels below.</p>
+    <div class="cgrid">
+      <div class="card"><span>📍</span><div><small>Location</small><b>Palus, Sangli, Maharashtra</b></div></div>
+      <div class="card"><span>📞</span><div><small>Phone</small><b>+91 7875 319 591</b></div></div>
+      <div class="card"><span>✉️</span><div><small>Email</small><b>saad.shaikh1551@gmail.com</b></div></div>
+      <a class="card" href="https://www.linkedin.com/in/saad-s-062baa286" target="_blank"><span>💼</span><div><small>LinkedIn</small><b>linkedin.com/in/saad-s-062baa286</b></div></a>
+      <a class="card" href="https://github.com/saad-git26" target="_blank"><span>🐙</span><div><small>GitHub</small><b>github.com/saad-git26</b></div></a>
+    </div>
+    <hr>
+    <p>Ready to Start a Conversation?</p>
+    <div class="logos">
+      <a href="https://www.linkedin.com/in/saad-s-062baa286" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5" fill="#0a66c2"/><path fill="#fff" d="M6.9 9.6H4.2V19h2.7V9.6zM5.5 5.2a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM19.8 13.7c0-2.5-1.3-4.3-3.6-4.3-1.1 0-1.9.6-2.3 1.2V9.6h-2.6V19h2.7v-5c0-1.3.6-2.1 1.7-2.1 1 0 1.5.7 1.5 2.1v5h2.6v-5.3z"/></svg></a>
+      <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=saad.shaikh1551@gmail.com&amp;su=Portfolio%20Enquiry" target="_blank" rel="noopener" aria-label="Gmail"><svg viewBox="0 0 24 24"><rect width="24" height="24" rx="5" fill="#fff"/><path fill="#ea4335" d="M3 6.5v11h3.2V9.4L12 13.8l5.8-4.4v8.1H21v-11l-1.1-.8c-1-.7-2.3-.6-3.1.2L12 10 7.2 5.9C6.4 5.1 5.1 5 4.1 5.7z"/><path fill="#4285f4" d="M17.8 17.5H21V6.5l-3.2 2.9z"/><path fill="#34a853" d="M3 17.5h3.2V9.4L3 6.5z"/><path fill="#fbbc04" d="M17.8 9.4V6.2L21 6.5z"/></svg></a>
+    </div>
+    <div class="card opp"><h3>Professional Opportunities</h3><p class="muted">I'm actively seeking Data Analyst opportunities. Whether you need a dedicated analyst or want to collaborate on data projects, I'd love to hear from you.</p></div>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Saad Shaikh</footer>
+<script src="script.js"></script>
+</body>
+</html>
